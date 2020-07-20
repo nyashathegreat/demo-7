@@ -55,7 +55,7 @@ statistics.HTML
 
     contains data of climatic regions of Africa.
 
-frame.html
+index.html
 
     also contains 5 links which takes you to the maps of African regions.
 
