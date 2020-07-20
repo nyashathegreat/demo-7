@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>African forest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="icon" href="img/drc_forest.jpg">
+    <style>
+	* {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+    }
+
+    header {
+      position: relative;
+      height: 60px;
+      text-align:left;
+      font-size: 40px;
+      margin: auto;
+    }
+    
+    #top{
+      position:relative;
+      width:1000px;
+      height:500px;
+      background-color: green;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+    #top ul{
+        width: 1000px;
+        height:500px;
+        padding-left: 10px;
+
+    }
+    #top ul li{
+        float: left;
+        width:475px;
+        height:500px;
+        background:black;
+        margin-right: 20px;
+        padding-right: 10px;
+    }
+
+    #top ul li p{
+        color: white;
+        padding-left: 10px;
+    }
+    header {
+
+        position: relative;
+        width: 1000px;
+        height: 60px;
+        margin: auto ;
+    }
+    #logo {
+        position: absolute;
+        left: 10px;
+        width: 200px;
+        height: 60px;
+        margin-top: 10px
+    }
+    #logo img {
+        margin: 2px 2px;
+    }
+
+    .yes {
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        right: 10px;
+    }
+
+     #icon1 {
+        top: 15px;
+        right: 10px;
+        border-radius: 50%;
+    }
+
+    .tropical {
+        text-align: center;
+        width: 194px;
+        height: 44px;
+        background-color: #006400;
+    }
+    .topic{
+        text-align: center;
+    }
+
+      nav {
+          position: relative;
+          width: 1000px;
+          height: 350px;
+          background: grey;
+          margin: auto;
+          background-image: url("img/forest.jpg");
+      }
+
+      .botoms {
+        float: left;
+        width: 196px;
+        height: 48px;
+        background: #333;
+        margin: auto 2px;
+      }
+      .flex{
+        display: block;
+      }
+      footer {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background: #006400;
+        bottom:0;
+        text-align: center;
+        line-height: 70px;
+        color: white;
+      }
+      @media only screen and (max-width:736px) {
+        header{
+
+          /*float: left;
+          height: auto;
+          padding-bottom: 50px;
+          margin: 20px 20px 0px;
+          */
+          display: none;
+
+
+        }
+        #icon1{
+
+          display: none;
+        }
+      nav{
+          margin: 50px 50px 50px;
+          width: 100%;
+          float: left;
+          height: auto;
+          background-image: none;
+          background-color: white;
+
+        }
+        .flex {
+          display: none;
+        }
+        #top, #top ul, #top ul li{
+          float: left;
+          width:100%;
+          height:auto;
+          }
+          section{
+            width: 100%;
+            height: auto;
+          }
+          footer{
+            display: none;
+            
+
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul id="logo" >
+        <img src ="img/africa.png" width = "50"  height="50">
+      </ul>
+
+      <li id = "icon1" class = "yes">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+       </li>
+    </header>
+
+    <nav>
+      <ul>
+        <li class=  "botoms"><button type="button" class="tropical"><a href="index.html">Home</a></button></li>
+        <li class = "botoms"><button type="button" class="tropical"><a href="savannawoodlands.html">Savanna Woodlands</a></button></li>
+        <li class = "botoms"><button type="button" class="tropical"><a href="savannagrasslands.html">Savanna Grasslands </a></button></li>
+        <li class = "botoms"><button type="button" class="tropical"><a href="mediterranean.html">Mediterranean</a></button></li>
+        <li class = "botoms"><button type="button" class="tropical"><a href="desert.html">Desert</a></button></li>
+      </ul>
+    </nav>
+
+      <h1 class ="topic">The Rainforest of Africa</h1>
+      <div id = "top">
+          <ul>
+              <li><img class ="flex "src ="img/Congoforest.jpg" width = "475"  height="500"></li>
+              <li>
+              <h2>The Congo Basin</h2>
+              <p>
+                The Congo Basin has high temperatures, high humidity, and large amounts of rainfall throughout the whole year.
+                With the equator running through the country, the Congo Basin climate is warm and humid.
+                There are two main season; one long rainy season, and one dry season with slightly less rain. The rainy season usually begins in the first half of March, and the dry season usually beings in November.
+                It rains about 117 days per year, with a total of approximately 1,766 mm of rainfall.
+              </p>
+
+              <p>
+                Temperatures are fairly stable with little change between seasons, the greatest temperature between day and night usually averaging a change of 15° C.
+                Temperatures range between 20° and 27° C
+                Near some river tributaries, the area cools to as low as 12° C
+                Humidity averages around 80 – 90 percent
+                Soil of the Congo Basin
+                The area is heavily coarse grained soils.
+                About 60% contains sand and gravel, with the lower lying areas having a high level of iron and aluminum oxides.
+                The soils are rich and heavy, as organic matter decomposes rapidly because of the hot and humid climate, and also topsoil is washed away regularly by rains.</p>
+
+              </li>
+          </ul>
+      </div>
+      <footer>&copy nyamz@24 2020. All rights reserved.</footer>
+
+  </body>
+</html>
