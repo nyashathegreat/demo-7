@@ -51,9 +51,9 @@ desert.html
     contains a header with an image and a link that connects to home page
     a few details of the desert features and an image.
 
-statistics.HTML
+statistics.html
 
-    contains data of climatic regions of Africa.
+    contains a table with data of climatic regions of Africa.
 
 index.html
 
